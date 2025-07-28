@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-black text-white scroll-smooth">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linear – Plan and build products</title>
+    <link rel="icon" href="https://linear.app/static/favicon.svg" sizes="any">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-fadeIn {
+            animation: fadeIn 1.2s ease-out both;
+        }
+    </style>
+</head>
+
+<body class="bg-[#08090a] text-white">
+    <div class="max-w-5xl mx-auto">
+    <header class="w-full px-6 py-4 flex justify-between items-center">
+        <div class="flex items-center space-x-2">
+            <svg width="20" height="20" viewBox="0 0 100 100" fill="currentColor" aria-label="Linear Logo" size="20" color="currentColor">
+                    <path d="M1.22541 61.5228c-.2225-.9485.90748-1.5459 1.59638-.857L39.3342 97.1782c.6889.6889.0915 1.8189-.857 1.5964C20.0515 94.4522 5.54779 79.9485 1.22541 61.5228ZM.00189135 46.8891c-.01764375.2833.08887215.5599.28957165.7606L52.3503 99.7085c.2007.2007.4773.3075.7606.2896 2.3692-.1476 4.6938-.46 6.9624-.9259.7645-.157 1.0301-1.0963.4782-1.6481L2.57595 39.4485c-.55186-.5519-1.49117-.2863-1.648174.4782-.465915 2.2686-.77832 4.5932-.92588465 6.9624ZM4.21093 29.7054c-.16649.3738-.08169.8106.20765 1.1l64.77602 64.776c.2894.2894.7262.3742 1.1.2077 1.7861-.7956 3.5171-1.6927 5.1855-2.684.5521-.328.6373-1.0867.1832-1.5407L8.43566 24.3367c-.45409-.4541-1.21271-.3689-1.54074.1832-.99132 1.6684-1.88843 3.3994-2.68399 5.1855ZM12.6587 18.074c-.3701-.3701-.393-.9637-.0443-1.3541C21.7795 6.45931 35.1114 0 49.9519 0 77.5927 0 100 22.4073 100 50.0481c0 14.8405-6.4593 28.1724-16.7199 37.3375-.3903.3487-.984.3258-1.3542-.0443L12.6587 18.074Z"></path>
+                </svg>
+            <div class="text-xl font-bold tracking-tight">Linear</div>
+        </div>
+        <nav class="hidden md:flex space-x-6 text-sm">
+            <a href="#" class="hover:underline">Product</a>
+            <a href="#" class="hover:underline">Resources</a>
+            <a href="#" class="hover:underline">Pricing</a>
+            <a href="#" class="hover:underline">Customers</a>
+            <a href="#" class="hover:underline">Blog</a>
+            <a href="#" class="hover:underline">Contact</a>
+        </nav>
+        <div class="text-sm">
+            <a href="#" class="text-grey px-4 py-2 rounded hover:bg-gray-200 transition">Log in</a>
+            <a href="#" class="bg-white text-black px-4 py-2 rounded hover:bg-gray-200 transition">Sign up</a>
+        </div>
+    </header>
+    <section class="text-left px-2 py-20 relative overflow-hidden">
+        <div class="max-w-5xl mx-auto">
+            <h1 class="text-6xl tracking-tight leading-tight mb-6">
+                Linear is a purpose-built tool for planning and building products
+            </h1>
+            <p class="text-white-400 text-left text-balance font-semibold text-xl mb-8">
+                Meet the new standard for modern software development. Streamline issues, sprints, and product roadmaps.
+            </p>
+            <div class="flex justify-left gap-4">
+                <a href="#" class="px-5 py-3 bg-white text-black font-semibold rounded-xl hover:bg-gray-200 transition">
+                    Start building
+                </a>
+                <a href="#"
+                    class="px-6 py-3 text-gray-400 font-semibold rounded hover:bg-gray-700 transition">
+                    Introducing Linear for Agents >
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="px-6 py-24 text-center relative z-10">
+        <div class="max-w-3xl mx-auto mb-16">
+            <h2 class="text-xl font-bold">
+                Powering the world's best product teams.
+            </h2>
+            <p class="text-gray-400 text-2xl">
+                From next-gen startups to established enterprises.
+            </p>
+        </div>
+    </section>
+    <section class="relative py-32 px-6 overflow-hidden">
+        <!-- Blurred Gradient Backgrounds -->
+        <div
+            class="absolute w-[600px] h-[600px] bg-gradient-to-br from-purple-500 to-indigo-500 opacity-20 blur-3xl rounded-full -z-10 top-0 left-1/2 -translate-x-1/2">
+        </div>
+        <div
+            class="absolute w-[400px] h-[400px] bg-gradient-to-tr from-pink-500 to-yellow-500 opacity-10 blur-3xl rounded-full -z-10 top-1/2 left-1/3">
+        </div>
+
+        <!-- Content -->
+        <div class="max-w-5xl mx-auto text-center mb-16">
+            <div class="flex flex-col md:flex-row items-start md:items-center gap-8">
+                <h2 class="text-5xl font-bold leading-tight w-2/3">
+                    Made for modern<br />
+                    product teams
+                </h2>
+                <p class="text-gray-400 text-sm md:w-1/3 leading-relaxed">
+                    Linear is shaped by the practices and principles that distinguish world-class product teams from the rest: relentless focus, fast execution, and a commitment to the quality of craft. Make the switch 
+                </p>
+            </div>
+        </div>
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div class=" rounded-2xl">
+                <div class="mb-4">
+                    <img alt="" data-nosnippet="true" data-loaded="true" loading="lazy" width="960" height="914" decoding="async" data-nimg="1" class="scroller-image" style="color:transparent" src="https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/fc435ee2-fabf-4f10-5a37-d89874f4bf00/f=auto,dpr=2,q=95,fit=scale-down,metadata=none">
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Purpose-built for product development</h3>
+                <p class="text-gray-400">
+                    
+                </p>
+            </div>
+
+            <div class="rounded-2xl">
+                <div class="mb-4">
+                    <img alt="" data-nosnippet="true" data-loaded="true" loading="lazy" width="960" height="914" decoding="async" data-nimg="1" class="scroller-image" style="color:transparent" src="https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/0e6d3edd-cd37-4bf8-c1bf-b93960169400/f=auto,dpr=2,q=95,fit=scale-down,metadata=none">
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Designed to move fast</h3>
+                <p class="text-gray-400">
+                </p>
+            </div>
+
+            <div class="bg-gray-900 rounded-2xl">
+                <div class="mb-4">
+                    <img alt="" data-nosnippet="true" data-loaded="true" loading="lazy" width="960" height="914" decoding="async" data-nimg="1" class="scroller-image" style="color:transparent" src="https://linear.app/cdn-cgi/imagedelivery/fO02fVwohEs9s9UHFwon6A/99eeb9b8-3d99-4191-0081-9f302d26f400/f=auto,dpr=2,q=95,fit=scale-down,metadata=none">
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Crafted to perfection</h3>
+                <p class="text-gray-400">
+                    
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="px-6 py-24 text-center bg-gradient-to-b from-black to-gray-900">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">
+                Build better software, faster
+            </h2>
+            <p class="text-gray-400 text-lg mb-8">
+                Join thousands of teams who use Linear to run their software projects.
+            </p>
+            <a href="#" class="px-6 py-3 bg-white text-black font-semibold rounded hover:bg-gray-200 transition">
+                Get Started
+            </a>
+        </div>
+    </section>
+
+    <section class="py-24 isolate" style="background: unset; font-weight: 400;">
+    <div class="px-6 max-w-4xl mx-auto">
+        <div class="grid grid-cols-12 text-center gap-8 items-end">
+            <h3 class="col-span-8 text-4xl text-center leading-tight tracking-tight font-medium" style="text-wrap: balance; font-weight: 510;">Plan the present. Build the future.</h3>
+            <div class="col-span-4 flex items-center gap-2 justify-end">
+                <a class="inline-flex items-center justify-center whitespace-nowrap bg-[#28282c] select-none h-10 px-4 text-sm leading-10 font-medium rounded-lg border border-gray-600 transition-all duration-150 ease-out" style="font-weight: 510;">Talk to sales</a>
+                <a class="inline-flex items-center justify-center whitespace-nowrap bg-[#e6e6e6] text-[#08090a] select-none h-10 px-4 text-sm leading-10 font-medium rounded-lg border border-gray-600 transition-all duration-150 ease-out" style="font-weight: 510;">Get started</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <footer class="relative z-50 border-t border-gray-700" style="background: var(--color-background-p);">
+        <div class="grid grid-cols-6 max-w-5xl mx-auto py-14 gap-8 place-items-start text-sm">
+            <div class="flex ml-6 transition-colors duration-100">
+                <svg width="20" height="20" viewBox="0 0 100 100" fill="currentColor" aria-label="Linear Logo" size="20" color="currentColor">
+                    <path d="M1.22541 61.5228c-.2225-.9485.90748-1.5459 1.59638-.857L39.3342 97.1782c.6889.6889.0915 1.8189-.857 1.5964C20.0515 94.4522 5.54779 79.9485 1.22541 61.5228ZM.00189135 46.8891c-.01764375.2833.08887215.5599.28957165.7606L52.3503 99.7085c.2007.2007.4773.3075.7606.2896 2.3692-.1476 4.6938-.46 6.9624-.9259.7645-.157 1.0301-1.0963.4782-1.6481L2.57595 39.4485c-.55186-.5519-1.49117-.2863-1.648174.4782-.465915 2.2686-.77832 4.5932-.92588465 6.9624ZM4.21093 29.7054c-.16649.3738-.08169.8106.20765 1.1l64.77602 64.776c.2894.2894.7262.3742 1.1.2077 1.7861-.7956 3.5171-1.6927 5.1855-2.684.5521-.328.6373-1.0867.1832-1.5407L8.43566 24.3367c-.45409-.4541-1.21271-.3689-1.54074.1832-.99132 1.6684-1.88843 3.3994-2.68399 5.1855ZM12.6587 18.074c-.3701-.3701-.393-.9637-.0443-1.3541C21.7795 6.45931 35.1114 0 49.9519 0 77.5927 0 100 22.4073 100 50.0481c0 14.8405-6.4593 28.1724-16.7199 37.3375-.3903.3487-.984.3258-1.3542-.0443L12.6587 18.074Z"></path>
+                </svg>
+            </div>
+            <div class="pl-6 w-full" style="font-size: 14px; line-height: 1.5; letter-spacing: -0.182px;">
+                <h3 class="mb-6 font-normal" style="color: var(--text-color-p);">Features</h3>
+                <ul class="list-none p-0 m-0 flex flex-col gap-0.5">
+                    <li class="w-full min-h-7 flex items-center whitespace-nowrap font-normal transition-colors duration-100" style="color: var(--text-color-t);">Plan</li>
+                    <li class="w-full min-h-7 flex items-center whitespace-nowrap font-normal transition-colors duration-100" style="color: var(--text-color-t);">Build</li>
+                    <li class="w-full min-h-7 flex items-center whitespace-nowrap font-normal transition-colors duration-100" style="color: var(--text-color-t);">Insights</li>
+                    <li class="w-full min-h-7 flex items-center whitespace-nowrap font-normal transition-colors duration-100" style="color: var(--text-color-t);">Customer Requests</li>
+                    <li class="w-full min-h-7 flex items-center whitespace-nowrap font-normal transition-colors duration-100" style="color: var(--text-color-t);">Linear Asks</li>
+                    <li class="w-full min-h-7 flex items-center whitespace-nowrap font-normal transition-colors duration-100" style="color: var(--text-color-t);">Security</li>
+                    <li class="w-full min-h-7 flex items-center whitespace-nowrap font-normal transition-colors duration-100" style="color: var(--text-color-t);">Mobile</li>
+                </ul>
+            </div>
+            <div class="pl-6 w-full" style="font-size: 14px; line-height: 1.5; letter-spacing: -0.182px;">
+                <h3 class="mb-6 font-normal" style="color: var(--text-color-p);">Product</h3>
+                <ul class="list-none p-0 m-0 flex flex-col gap-0.5">
+                    <li class="w-full min-h-7 flex items-center whitespace-nowrap font-normal transition-colors duration-100" style="color: var(--text-color-t);">Pricing</li>
+                    <li class="w-full min-h-7 flex items-center whitespace-nowrap font-normal transition-colors duration-100" style="color: var(--text-color-t);">Method</li>
+                    <li class="w-full min-h-7 flex items-center whitespace-nowrap font-normal transition-colors duration-100" style="color: var(--text-color-t);">Integrations</li>
+                    <li class="w-full min-h-7 flex items-center whitespace-nowrap font-normal transition-colors duration-100" style="color: var(--text-color-t);">Changelog</li>
+                    <li class="w-full min-h-7 flex items-center whitespace-nowrap font-normal transition-colors duration-100" style="color: var(--text-color-t);">Documentation</li>
+                    <li class="w-full min-h-7 flex items-center whitespace-nowrap font-normal transition-colors duration-100" style="color: var(--text-color-t);">Download</li>
+                    <li class="w-full min-h-7 flex items-center whitespace-nowrap font-normal transition-colors duration-100" style="color: var(--text-color-t);">Switch</li>
+                </ul>
+            </div>
+            <div class="pl-6 w-full" style="font-size: 14px; line-height: 1.5; letter-spacing: -0.182px;">
+                <h3 class="mb-6 font-normal" style="color: var(--text-color-p);">Company</h3>
+                <ul class="list-none p-0 m-0 flex flex-col gap-0.5">
+                    <li class="w-full min-h-7 flex items-center whitespace-nowrap font-normal transition-colors duration-100" style="color: var(--text-color-t);">About</li>
+                    <li class="w-full min-h-7 flex items-center whitespace-nowrap font-normal transition-colors duration-100" style="color: var(--text-color-t);">Customers</li>
+                    <li class="w-full min-h-7 flex items-center whitespace-nowrap font-normal transition-colors duration-100" style="color: var(--text-color-t);">Careers</li>
+                    <li class="w-full min-h-7 flex items-center whitespace-nowrap font-normal transition-colors duration-100" style="color: var(--text-color-t);">Blog</li>
+                    <li class="w-full min-h-7 flex items-center whitespace-nowrap font-normal transition-colors duration-100" style="color: var(--text-color-t);">README</li>
+                    <li class="w-full min-h-7 flex items-center whitespace-nowrap font-normal transition-colors duration-100" style="color: var(--text-color-t);">Quality</li>
+                    <li class="w-full min-h-7 flex items-center whitespace-nowrap font-normal transition-colors duration-100" style="color: var(--text-color-t);">Brand</li>
+                </ul>
+            </div>
+            <div class="pl-6 w-full" style="font-size: 14px; line-height: 1.5; letter-spacing: -0.182px;">
+                <h3 class="mb-6 font-normal" style="color: var(--text-color-p);">Resources</h3>
+                <ul class="list-none p-0 m-0 flex flex-col gap-0.5">
+                    <li class="w-full min-h-7 flex items-center whitespace-nowrap font-normal transition-colors duration-100" style="color: var(--text-color-t);">Developers</li>
+                    <li class="w-full min-h-7 flex items-center whitespace-nowrap font-normal transition-colors duration-100" style="color: var(--text-color-t);">Status</li>
+                    <li class="w-full min-h-7 flex items-center whitespace-nowrap font-normal transition-colors duration-100" style="color: var(--text-color-t);">Startups</li>
+                    <li class="w-full min-h-7 flex items-center whitespace-nowrap font-normal transition-colors duration-100" style="color: var(--text-color-t);">Report vulnerability</li>
+                    <li class="w-full min-h-7 flex items-center whitespace-nowrap font-normal transition-colors duration-100" style="color: var(--text-color-t);">DPA</li>
+                    <li class="w-full min-h-7 flex items-center whitespace-nowrap font-normal transition-colors duration-100" style="color: var(--text-color-t);">Privacy</li>
+                    <li class="w-full min-h-7 flex items-center whitespace-nowrap font-normal transition-colors duration-100" style="color: var(--text-color-t);">Terms</li>
+                </ul>
+            </div>
+            <div class="pl-6 w-full" style="font-size: 14px; line-height: 1.5; letter-spacing: -0.182px;">
+                <h3 class="mb-6 font-normal" style="color: var(--text-color-p);">Connect</h3>
+                <ul class="list-none p-0 m-0 flex flex-col gap-0.5">
+                    <li class="w-full min-h-7 flex items-center whitespace-nowrap font-normal transition-colors duration-100" style="color: var(--text-color-t);">Contact us</li>
+                    <li class="w-full min-h-7 flex items-center whitespace-nowrap font-normal transition-colors duration-100" style="color: var(--text-color-t);">Community</li>
+                    <li class="w-full min-h-7 flex items-center whitespace-nowrap font-normal transition-colors duration-100" style="color: var(--text-color-t);">X (Twitter)</li>
+                    <li class="w-full min-h-7 flex items-center whitespace-nowrap font-normal transition-colors duration-100" style="color: var(--text-color-t);">GitHub</li>
+                    <li class="w-full min-h-7 flex items-center whitespace-nowrap font-normal transition-colors duration-100" style="color: var(--text-color-t);">YouTube</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    </div>
+</body>
